@@ -1,0 +1,99 @@
+.videoDetails{
+    flex: 0.78;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.videoDetails__details{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(92, 87, 87);
+}
+
+.videoDetails__left{
+    color: #fff;    
+}
+
+.videoDetails__left h5{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.videoDetails__left p{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 23px;
+}
+
+.videoDetails__right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoDetails__icon{
+    color: #909090;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.videoDetails__icon:hover{
+    color: #fff;
+}
+
+.videoAuthor__details{
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    margin-top: 20px;
+}
+
+.videoAuthor__Left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoAuthorDetails{
+    margin-left: 10px;
+}
+
+.videoAuthorDetails h6{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.videoProfile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.videoAuthorDetails p{
+    font-size: 0.8rem;
+    color: #909090;
+}
+
+.videoAuthor__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.videoAuthor__right button{
+    padding: 8px 15px;    
+    margin-right: 20px;
+    background-color: #303030;
+    outline: 0;
+    border: 0;
+    color:#a8a4a4;
+}

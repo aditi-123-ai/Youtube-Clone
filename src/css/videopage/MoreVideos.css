@@ -1,0 +1,62 @@
+.moreVideos__container{
+    flex: 0.35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.moreVideos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 20px 0px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.moreVideos__video{
+    width: 100%;
+    display: flex;
+}
+
+.moreVideos__tumbnail{
+    position: relative;
+}
+
+.moreVideos__video .moreVideos__timestamp{
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 5px;
+    font-size: 0.9rem;
+    bottom: 5px;
+    right: 5px;
+}
+
+.moreVideos__video img{
+    width:230px;
+    height: 16vh;
+    object-fit: cover;
+}
+
+.moreVideos__details{
+   color: #fff;
+   margin-left: 20px;
+   margin-top: 6px;
+   float: left;
+   margin-right: 30px;
+}
+
+.moreVideos__details h5{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.moreVideos__details p {
+    font-size: 0.9rem;
+    color: rgb(139, 136, 136);
+}
